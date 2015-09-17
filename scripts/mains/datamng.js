@@ -40,7 +40,7 @@ require([
 
     Compiler.resolve([dataEditorConfig, dataUploadConfig, dsdEditorConfig, metadataEditorConfig, catalogConfig, menuConfig, dataMngConfig, fenixCommonConfig],
         {
-            placeholders: { "FENIX_CDN": "//fenixapps.fao.org/repository" },
+            placeholders: {"FENIX_CDN": "//fenixrepo.fao.org/cdn"},
             config: {
 
                 locale: 'en',

@@ -7,12 +7,13 @@ require([
     '../../submodules/fenix-ui-chart-creator/src/js/paths',
     '../../submodules/fenix-ui-map-creator/src/js/paths',
     '../../submodules/fenix-ui-metadata-viewer/js/paths',
-    '../../submodules/fenix-ui-metadata-viewer/submodules/json-editor-faostat-theme/js/paths',
+    '../../submodules/json-editor-faostat-theme/src/js/paths',
     '../../submodules/faostat-ui-commons/js/paths',
     '../../submodules/fenix-ui-common/js/paths',
     '../../submodules/fenix-ui-filter/src/js/paths',
-    '../../submodules/fenix-ui-common/js/Compiler'
-], function (Catalog, Analysis, Menu, TableCreator, ChartCreator, MapCreator, MetadataViewer, FAOSTAT_THEME, faostatCommons, FenixCommons, Filter, Compiler) {
+    '../../submodules/fenix-ui-common/js/Compiler',
+    '../../submodules/fenix-ui-reports/src/js/paths'
+], function (Catalog, Analysis, Menu, TableCreator, ChartCreator, MapCreator, MetadataViewer, FAOSTAT_THEME, faostatCommons, FenixCommons, Filter, Compiler, FenixReports) {
 
     'use strict';
 
@@ -41,7 +42,7 @@ require([
     faostatCommonsConfig.baseUrl = '../../submodules/faostat-ui-commons/js';
 
     var faostatThemeConfig = FAOSTAT_THEME;
-    faostatThemeConfig.baseUrl = '../../submodules/fenix-ui-metadata-viewer/submodules/json-editor-faostat-theme/js';
+    faostatThemeConfig.baseUrl = '../../submodules/json-editor-faostat-theme/src/js';
 
     var fenixCommonConfig = FenixCommons;
     fenixCommonConfig.baseUrl = '../../submodules/fenix-ui-common/js';
@@ -49,15 +50,18 @@ require([
     var filterConfig = Filter;
     filterConfig.baseUrl = '../../submodules/fenix-ui-filter/';
 
-    Compiler.resolve([catalogConfig, analysisConfig, menuConfig, tableCreatorConfig, chartCreatorConfig, mapCreatorConfig, metadataViewerConfig, faostatCommonsConfig, faostatThemeConfig, fenixCommonConfig, filterConfig], {
-        placeholders: {"FENIX_CDN": "//fenixapps.fao.org/repository"},
+    var fenixReportsConfig = FenixReports;
+    fenixReportsConfig.baseUrl = '../../submodules/fenix-ui-reports/src/js';
+
+    Compiler.resolve([catalogConfig, analysisConfig, menuConfig, tableCreatorConfig, chartCreatorConfig, mapCreatorConfig, metadataViewerConfig, faostatCommonsConfig, faostatThemeConfig, fenixCommonConfig, filterConfig, fenixReportsConfig], {
+        placeholders: {"FENIX_CDN": "//fenixrepo.fao.org/cdn"},
         config: {
 
             // Specify the paths of vendor libraries
             paths: {
                 host: '../analysis/host',
                 underscore: "{FENIX_CDN}/js/underscore/1.7.0/underscore.min",
-                'packery': '../lib/packery.1.4.1.min',
+                //'packery': '../lib/packery.1.4.1.min',
 
                 'host/config' : '../../config/config',
 

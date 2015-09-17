@@ -4,10 +4,10 @@ define([
     'underscore',
     'fx-menu/start',
     'fx-ana/start',
-/*    'fx-cat-br/start',*/
+    'fx-cat-br/start',
     'host/config',
     'amplify'
-], function ($, _, Menu, Analysis, /*Catalog,*/ C) {
+], function ($, _, Menu, Analysis, Catalog, C) {
 
     'use strict';
 
@@ -65,7 +65,7 @@ define([
             }
         }).init();
 
-     /*   this.catalog = new Catalog({
+       this.catalog = new Catalog({
 
             container: document.querySelector(s.CATALOG_CONTAINER),
 
@@ -85,15 +85,15 @@ define([
                 }
             }
 
-        }).init();*/
+        }).init();
     };
 
     Host.prototype.bindEventListener = function () {
 
         var self = this;
 
-        $(s.OVERLAY_OPEN).on('click', _.bind(this.addItem, this));
-        //$(s.OVERLAY_OPEN).on('click', _.bind(this.toggleOverly, this));
+        //$(s.OVERLAY_OPEN).on('click', _.bind(this.addItem, this));
+        $(s.OVERLAY_OPEN).on('click', _.bind(this.toggleOverly, this));
 
         $(s.OVERLAY).on('click', function (e){
 

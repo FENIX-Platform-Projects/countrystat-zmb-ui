@@ -46,3 +46,9 @@
 [submodule "submodules/fenix-ui-table-creator"]
 	path = submodules/fenix-ui-table-creator
 	url = https://github.com/FENIX-Platform/fenix-ui-table-creator
+[submodule "submodules/json-editor-faostat-theme"]
+	path = submodules/json-editor-faostat-theme
+	url = https://github.com/FAOSTAT/json-editor-faostat-theme
+[submodule "submodules/fenix-ui-reports"]
+	path = submodules/fenix-ui-reports
+	url = https://github.com/FENIX-Platform/fenix-ui-reports
