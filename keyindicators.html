@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FENIX Analysis</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="description" content="FENIX Analysis Interface">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Third Party CSS -->
+    <link rel="stylesheet" href="//fenixrepo.fao.org/cdn/js/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href='//fenixrepo.fao.org/cdn/js/jqwidgets/3.8.2/styles/jqx.base.css'/>
+    <link rel="stylesheet" href='//fenixrepo.fao.org/cdn/js/pnotify/2.0.1/pnotify.custom.min.css'/>
+    <link rel="stylesheet" href='//fenixrepo.fao.org/cdn/js/introjs/1.0.0/introjs.css'/>
+    <link rel="stylesheet" href='//fenixrepo.fao.org/cdn/js/nprogress/0.1.6/nprogress.css'/>
+    <link rel="stylesheet" href='//fenixrepo.fao.org/cdn/js/jquery.mb.extruder/2.5.5/css/mbExtruder.css'>
+    <link rel="stylesheet" href='//fenixrepo.fao.org/cdn/js/jstree/3.0.8/dist/themes/default/style.min.css'>
+    <link rel="stylesheet" href="//fenixrepo.fao.org/cdn/js/leaflet/0.7.3/leaflet.css"/>
+    <link rel="stylesheet" href="//fenixrepo.fao.org/cdn/js/jquery.power.tip/1.2.0/css/jquery.powertip.css"/>
+    <link rel="stylesheet" href="//fenixrepo.fao.org/cdn/js/jquery-ui/1.10.3/jquery-ui-1.10.3.custom.min.css"/>
+    <link rel="stylesheet" href="//fenixrepo.fao.org/cdn/js/select2/3.5.2/css/select2.css"/>
+    <link rel='stylesheet' href='//fenixrepo.fao.org/cdn/js/font-awesome-4.2.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="//fenixapps.fao.org/repository/js/fenix-ui-map/0.0.1/fenix-ui-map.min.css"/>
+    <link rel="stylesheet" href="//fenixrepo.fao.org/cdn/js/jquery-treegrid/0.3.0/css/jquery.treegrid.css">
+
+    <!--&lt;!&ndash; FENIX CSS&ndash;&gt;-->
+    <!--<link rel="stylesheet" href="submodules/fenix-ui-common/css/fenix-style.css">-->
+    <link rel="stylesheet" href='submodules/fenix-ui-catalog/css/fenix-ui-catalog.css'/>
+    <!--<link rel="stylesheet" href='submodules/fenix-ui-analysis/css/host.css'/>-->
+
+
+    <!-- FENIX CSS -->
+    <link rel="stylesheet" href="//fenixrepo.fao.org/cdn/js/fenix-ui-map/0.0.1/fenix-ui-map.min.css"/>
+
+    <link rel="stylesheet" href='css/host.css'/>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="css/icons/fx-favicon.ico">
+
+</head>
+<body>
+
+<div id="wrapper">
+
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper"></div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper" class="indicator-content">
+
+
+        <div class="page-content-toolbar">
+            <a href="#menu-toggle" class="btn btn-default page-content-toolbar-btn" id="menu-toggle"> <span
+                    class="icojam_linen"></span></a>
+        </div>
+
+
+        <div class="container-fluid">
+
+            <div class="row">
+                <div class="col-xs-12"><h1>Key Indicator</h1></div>
+
+            </div>
+            <br>
+
+            <div class="row">
+
+                <div class="col-xs-12" id="key-indicator-table-container"></div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-xs-12"><h2>Legend</h2></div>
+
+            </div>
+
+
+            <div class="row">
+
+
+                <div class="col-xs-12" id="key-indicator-legend-container"></div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+
+<!-- ==========
+     Javascript -->
+<script data-main="scripts/mains/indicators" src="//fenixrepo.fao.org/cdn/js/requirejs/2.1.15/require.min.js"></script>
+
+</body>
+</html>
