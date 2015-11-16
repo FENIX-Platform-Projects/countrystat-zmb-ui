@@ -30,7 +30,7 @@ define([
             active: 'home',
             container: '#sidebar-wrapper',
             template: 'fx-menu/templates/side.html',
-            lang: "FR"
+            lang: "EN"
         };
 
         var menuConfAuth = _.extend({}, menuConf, {

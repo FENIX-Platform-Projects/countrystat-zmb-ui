@@ -49,13 +49,15 @@ require([
                 paths: {
                     underscore: "{FENIX_CDN}/js/underscore/1.7.0/underscore.min",
                     backbone: "{FENIX_CDN}/js/backbone/1.1.2/backbone.min",
-                    handlebars: "{FENIX_CDN}/js/handlebars/2.0.0/handlebars",
+                    //handlebars: "{FENIX_CDN}/js/handlebars/2.0.0/handlebars",
+                    //MOVE ON THE CDN!!!
+                    handlebars: "../../submodules/fenix-ui-metadata-editor/lib/handlebars",
                     chaplin: "{FENIX_CDN}/js/chaplin/1.0.1/chaplin.min",
                     amplify: '{FENIX_CDN}/js/amplify/1.1.2/amplify.min',
                     rsvp: '{FENIX_CDN}/js/rsvp/3.0.17/rsvp',
                     'bootstrap-datetimepicker': "{FENIX_CDN}/js/bootstrap-datetimepicker/3.1.3/bootstrap-datetimepicker",
 
-                    'fx-menu/templates': '../../scripts/templates',
+                    //'fx-menu/templates': '../../scripts/templates',
                     'fx-d-m/templates/site' : '../../scripts/templates/site-sidemenu.hbs',
 
                     pnotify: '{FENIX_CDN}/js/pnotify/2.0.1/pnotify.custom.min',

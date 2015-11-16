@@ -9,7 +9,7 @@ define([], function () {
     var services = {
 
         SERVICES_BASE_ADDRESS : 'http://fenixservices.fao.org/d3s/msd',
-        CATALOG_BLANK_FILTER : 'config/submodules/catalog/afg-catalog-blank-filter.json'
+        CATALOG_BLANK_FILTER : 'config/submodules/catalog/zmb-catalog-blank-filter.json'
 
         };
 
