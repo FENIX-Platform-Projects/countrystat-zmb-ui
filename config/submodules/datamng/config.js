@@ -24,7 +24,7 @@ define(['jquery', 'fx-submodules/config/baseConfig'],
             container: '#sidebar-wrapper',
             template: 'fx-menu/templates/side.html',
             active: "createdataset",
-            lang: "FR"
+            lang: "EN"
         };
 
         cfg.SITE_TEMPLATE = 'topmenu';
