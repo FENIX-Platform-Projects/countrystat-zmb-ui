@@ -7,7 +7,7 @@
 }
 
 .country-details{
-  background-image: url(img/cmr-home-bg.jpg);
+  background-image: url(img/zam-home.jpg);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -244,6 +244,10 @@ ol li:before {
     padding: 15px;
   }
 
+  h4{
+    margin-bottom: 0;
+  }
+
   h2, h4, p{
     color: white !important;
     border-color: white;
@@ -274,7 +278,7 @@ ol li:before {
   }
 
   .news-image{
-    background-image: url(img/cmr-working-group.jpg);
+    background-image: url(img/zam-working-group.jpg);
     background-size: cover;
     background-position: 50% 50%;
     height: 50%;
@@ -290,7 +294,7 @@ ol li:before {
 .home-tile.map{
   background-color: $afg-map-tile;
   position: relative;
-  background-image: url("img/home-map-cameroon.svg");
+  background-image: url("img/home-map-zambia.svg");
   background-size: 570px 371px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
