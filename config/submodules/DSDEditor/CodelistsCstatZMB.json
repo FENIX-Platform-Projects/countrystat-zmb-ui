@@ -1,30 +1,37 @@
 [
-  {
-    "value": "GAUL|2014",
-    "text": {
-      "EN": "GAUL"
+    {
+        "value": "GAUL|2014",
+        "text": {
+            "EN": "GAUL"
+        },
+        "subject": "geo"
     },
-    "subject": "geo"
-  },
-  {
-    "value": "CPC|2.1",
-    "text": {
-      "EN": "CPC 2.1"
+    {
+        "value": "CPC|2.1",
+        "text": {
+            "EN": "CPC 2.1"
+        },
+        "subject": "item"
     },
-    "subject": "item"
-  },
-  {
-    "value": "CountrySTAT_Indicators",
-    "text": {
-      "EN": "CountrySTAT Indicators"
+    {
+        "value": "CountrySTAT_Indicators",
+        "text": {
+            "EN": "CountrySTAT Indicators"
+        },
+        "subject": "indicator"
     },
-    "subject": "item"
-  },
-  {
-    "value": "CountrySTAT_UM",
-    "text": {
-      "EN": "CountrySTAT UM"
+    {
+        "value": "CountrySTAT_HS|2012",
+        "text": {
+            "EN": "HS 2012"
+        },
+        "subject": "item"
     },
-    "subject": "um"
-  }
+    {
+        "value": "CountrySTAT_UM",
+        "text": {
+            "EN": "CountrySTAT UM"
+        },
+        "subject": "um"
+    }
 ]
