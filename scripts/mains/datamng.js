@@ -63,7 +63,7 @@ require([
                     'fx-d-m/templates/site' : '../../scripts/templates/site-sidemenu.hbs',
 
                     pnotify: '{FENIX_CDN}/js/pnotify/2.0.1/pnotify.custom.min',
-                    'fx-menu/templates': '../../scripts/templates',
+                    //'fx-menu/templates': '../../scripts/templates',
 
 
 
