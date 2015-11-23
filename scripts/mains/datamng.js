@@ -44,6 +44,7 @@ require([
         {
             placeholders: {"FENIX_CDN": "//fenixrepo.fao.org/cdn"},
             config: {
+                waitSeconds : 30,
 
                 locale: 'en',
 

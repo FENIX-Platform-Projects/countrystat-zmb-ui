@@ -58,6 +58,7 @@ require([
     Compiler.resolve([catalogConfig, analysisConfig, menuConfig, tableCreatorConfig, chartCreatorConfig, mapCreatorConfig, metadataViewerConfig,/* faostatCommonsConfig, faostatThemeConfig,*/ fenixCommonConfig, filterConfig, fenixReportsConfig], {
         placeholders: {"FENIX_CDN": "//fenixrepo.fao.org/cdn"},
         config: {
+            waitSeconds : 30,
 
             // Specify the paths of vendor libraries
             paths: {
