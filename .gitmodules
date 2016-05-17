@@ -19,9 +19,6 @@
 [submodule "submodules/fenix-ui-DataEditor"]
 	path = submodules/fenix-ui-DataEditor
 	url = ../../FENIX-Platform/fenix-ui-DataEditor.git
-[submodule "submodules/fenix-ui-dataUpload"]
-	path = submodules/fenix-ui-dataUpload
-	url = ../../FENIX-Platform/fenix-ui-dataUpload.git
 [submodule "submodules/fenix-ui-DSDEditor"]
 	path = submodules/fenix-ui-DSDEditor
 	url = ../../FENIX-Platform/fenix-ui-DSDEditor.git
