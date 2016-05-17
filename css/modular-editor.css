@@ -26,7 +26,7 @@
   content: "";
   height: 15px;
   width: 15px;
-  background: url("../css/icons/fenix-editor-sprite-small.png") no-repeat -105px 0;
+  background: url("fenix-editor-sprite-small.png") no-repeat -105px 0;
   cursor: pointer;
   top: 3px; }
 
@@ -300,7 +300,7 @@ input[type=text]::-ms-clear {
   top: 7px;
   height: 15px;
   width: 15px;
-  background: url("../css/icons/fenix-editor-sprite-small.png") no-repeat -15px 0;
+  background: url("fenix-editor-sprite-small.png") no-repeat -15px 0;
   cursor: pointer; }
 
 .fx-editor-modular-form-close-btn {
@@ -309,7 +309,7 @@ input[type=text]::-ms-clear {
   right: 7px;
   height: 15px;
   width: 15px;
-  background: url("../css/icons/fenix-editor-sprite-small.png") no-repeat -45px 0;
+  background: url("fenix-editor-sprite-small.png") no-repeat -45px 0;
   cursor: pointer; }
 
 .fx-editor-modular-form-resize-btn {
@@ -318,7 +318,7 @@ input[type=text]::-ms-clear {
   right: 28px;
   height: 15px;
   width: 15px;
-  background: url("../css/icons/fenix-editor-sprite-small.png") no-repeat -30px 0;
+  background: url("fenix-editor-sprite-small.png") no-repeat -30px 0;
   cursor: pointer; }
 
 .fx-editor-modular-form-label {
@@ -360,7 +360,7 @@ input[type=text]::-ms-clear {
   height: 25px;
   width: 25px;
   top: 7px;
-  background: url("../css/icons/fenix-editor-sprite.png") no-repeat 0px 0; }
+  background: url("/icons/fenix-editor-sprite.png") no-repeat 0px 0; }
 
 .fx-editor-resume-bar-text {
   position: absolute;
@@ -372,7 +372,7 @@ input[type=text]::-ms-clear {
   position: absolute;
   height: 25px;
   width: 25px;
-  background: url("../css/icons/fenix-editor-sprite-small.png") no-repeat -135px 0;
+  background: url("fenix-editor-sprite-small.png") no-repeat -135px 0;
   top: 12px;
   left: 288px;
   /* Sistemare questo */ }
