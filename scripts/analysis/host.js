@@ -5,7 +5,7 @@ define([
     'fx-menu/start',
     'fx-ana/start',
     'fx-cat-br/start',
-    'FENIX_UI_METADATA_VIEWER',
+    'fx-md-v/start',
     'fx-report',
     'host/config',
     'fx-common/AuthManager',
@@ -208,11 +208,15 @@ define([
     Host.prototype.onDownloadClick = function (model) {
 
         var payload = {
+
+            resource: {
+                metadata : {
+                    uid : model.uid
+                },
+                data : []
+            },
             input:{
-                config:{
-                    uid: model.uid,
-                    environment_url : C.DATA_ENVIROMENT_URL
-                }
+                config:{}
             },
             output: {
                 config:{
@@ -222,6 +226,7 @@ define([
         };
 
         this.$report.init('tableExport');
+
         this.$report.exportData(payload,C.MD_EXPORT_URL);
     };
 
